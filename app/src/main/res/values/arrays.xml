@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="letter_tile_colors">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+    <array name="mdcolor_random">
+        <item>#e91e63</item>
+        <item>#9c27b0</item>
+        <item>#673ab7</item>
+        <item>#e53935</item>
+        <item>#5677fc</item>
+        <item>#689f38</item>
+        <item>#03a9f4</item>
+        <item>#00bcd4</item>
+        <item>#009688</item>
+        <item>#259b24</item>
+        <item>#ff5722</item>
+        <item>#795548</item>
+        <item>#607d8b</item>
+        <item>#ff9800</item>
+    </array>
+
+<!--    <array name="shop_category_bg">-->
+<!--        <item>@drawable/image_4</item>-->
+<!--        <item>@drawable/image_19</item>-->
+<!--        <item>@drawable/image_20</item>-->
+<!--        <item>@drawable/image_21</item>-->
+<!--    </array>-->
+<!--    <array name="shop_category_brief">-->
+<!--        <item>100k Items</item>-->
+<!--        <item>655k Items</item>-->
+<!--        <item>221k Items</item>-->
+<!--        <item>85k Items</item>-->
+<!--    </array>-->
+    <array name="shop_category_icon">
+        <item>@drawable/ic_drinks_24</item>
+        <item>@drawable/ic_snack_24</item>
+        <item>@drawable/ic_food_24</item>
+        <item>@drawable/ic_drinks_24</item>
+    </array>
+    <array name="shop_category_title">
+        <item>Drinks</item>
+        <item>Snacks</item>
+        <item>Foods</item>
+        <item>TopUp</item>
+    </array>
+
+    <array name="shop_product_image">
+        <item>@drawable/img_air_mineral</item>
+        <item>@drawable/img_jus_mangga</item>
+        <item>@drawable/img_jus_alpakut</item>
+        <item>@drawable/img_jus_appel</item>
+    </array>
+    <array name="shop_product_price">
+        <item>Rp 123</item>
+        <item>Rp 123</item>
+        <item>Rp 123</item>
+        <item>Rp 123</item>
+    </array>
+    <array name="shop_product_title">
+        <item>Air Mineral</item>
+        <item>Jus Mangga</item>
+        <item>Jus Alpukat</item>
+        <item>Jus Apel</item>
+    </array>
+
+
+</resources>

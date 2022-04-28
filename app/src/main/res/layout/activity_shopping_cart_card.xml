@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:id="@+id/parent_view"
+    android:background="@color/grey_10"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <TextView
+            android:id="@+id/finished_order_msg"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="@color/grey_90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your order is completed. \n Thank You!"
+            android:textAlignment="center"
+            android:visibility="gone"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scrollingCache="true"
+            android:layout_weight="1">
+
+        </androidx.recyclerview.widget.RecyclerView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/spacing_mlarge"
+            android:paddingTop="@dimen/spacing_middle"
+            android:paddingRight="@dimen/spacing_mlarge"
+            android:paddingBottom="@dimen/spacing_medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/spacing_middle">
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Amount"
+                    app:fontFamily="sans-serif-medium"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/total"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textStyle="bold"
+                    android:textColor="@color/light_green_500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp 0"/>
+            </LinearLayout>
+            <View
+                android:background="@color/grey_20"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/checkout_btn"
+                android:textColor="@android:color/white"
+                android:background="@drawable/btn_rounded_green"
+                android:paddingLeft="@dimen/spacing_mlarge"
+                android:paddingRight="@dimen/spacing_mlarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_medium"
+                android:text="CHECKOUT"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
